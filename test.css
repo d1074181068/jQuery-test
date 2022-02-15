@@ -1,0 +1,467 @@
+.wrap{
+    width: 500px;
+}
+p{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.btn-hide-show{
+    margin:20px;
+    border-bottom: 2px solid black;
+}
+h1{
+    font-size: 40px;
+}
+
+.btn-toggle{
+    margin: 20px;
+    border-bottom: 2px solid black;
+}
+h2{
+   font-size: 30px; 
+}
+
+
+.btn-slide{
+    margin: 20px;
+    border-bottom: 2px solid black;
+}
+
+.btn-fade{
+    margin: 20px;
+    border-bottom: 2px solid black;
+}
+
+.fade-item{
+    width: 200px;
+    height:200px;
+    background-color: blueviolet;
+    display: inline-block;
+}
+
+
+.btn-toggleclass{
+    margin: 20px;
+    border-bottom: 2px solid black;
+}
+.toggleclass-item{
+    width: 200px;
+    height:200px;
+    background-color: blueviolet;
+    opacity: 0;
+    display: inline-block;
+    transition: opacity 2s;
+}
+.toggleclass-item.active{
+    opacity: 1;
+}
+
+.list-css{
+    padding: 20px;
+}
+.list-css ul{
+    display: flex;
+    justify-content: center;
+}
+.list-css a {
+    display: block;
+    width: 100px;
+    padding:10px;
+    text-align: center;
+    color:black;
+    text-decoration: none;
+    border:1px solid #000 ;
+    margin: 0px -1px -1px 0px;
+}
+.list-css a:hover{
+    background-color: cornsilk;
+    transition: 0.3s;
+}
+.dropdown .dropdown-open{
+    display: none;
+}
+.dropdown > li:hover .dropdown-open{
+    display: block;
+}
+
+
+.list-jquery{
+    padding: 20px;
+}
+.list-jquery ul{
+    display: flex;
+    justify-content: center;
+}
+.list-jquery a {
+    display: block;
+    width: 100px;
+    padding:10px;
+    text-align: center;
+    color:black;
+    text-decoration: none;
+    border:1px solid #000 ;
+    margin: 0px -1px 0px 0px;
+    transition: 0.3s;
+}
+.list-jquery a:hover,.jquery-contact a.active,.jquery-order a.active{
+    background-color: cornsilk;
+}
+.jquery-dropdown .jquery-contact-open ,.jquery-dropdown .jquery-order-open{
+    display: none;
+}
+
+.delay{
+    margin: 20px;
+    border-top:2px solid black ;
+    position: relative;
+}
+.delay > p{
+    margin-top: 20px;
+}
+.delay .box{
+    width: 100px;
+    height: 100px;
+    display: none;
+}
+.box.red{
+    background-color: red;
+}
+.box.orange{
+    background-color: orange;
+}
+.box.yellow{
+    background-color: yellow;
+}
+.box.green{
+    display: block;
+    width: 0;
+    background-color: green;
+    position:absolute;
+    left:100px;
+    bottom: 0;
+    transition: 1s;
+}
+.box.green.active{
+    position: absolute;
+    bottom:0;
+    left:100px;
+    width: 100px;
+    background-color: green;
+}
+.box.green.close{
+    position: absolute;
+    bottom:0;
+    left:100px;
+    width: 0px;
+    background-color: green;
+}
+.box.blue{
+    display: block;
+    width: 0;
+    background-color: blue;
+    position:absolute;
+    left:200px;
+    bottom: 0;
+    transition: 1s;
+}
+
+.box.blue.active{
+    position: absolute;
+    bottom:0;
+    left:200px;
+    width: 100px;
+    background-color: blue;
+}
+.box.blue.close{
+    position: absolute;
+    bottom:0;
+    left:200px;
+    width: 0px;
+    background-color: blue;
+}
+
+.box.indigo{
+    display: block;
+    position: absolute;
+    height: 0px;
+    right:160px;
+    bottom:100px;
+    background-color: indigo;
+    transition: 1s;
+}
+.box.indigo.active{
+    position: absolute;
+    height:100px;
+    right:160px;
+    bottom:100px;
+    background-color: indigo;
+}
+.box.indigo.close{
+    position: absolute;
+    height:0px;
+    right:160px;
+    bottom:100px;
+    background-color: indigo;
+}
+
+.box.purple{
+    display: block;
+    position: absolute;
+    height: 0px;
+    right:160px;
+    bottom:200px;
+    background-color: purple;
+    transition: 1s;
+}
+.box.purple.active{
+    position: absolute;
+    right:160px;
+    bottom:200px;
+    background-color: purple;
+    height:100px;
+}
+.box.purple.close{
+    position: absolute;
+    right:160px;
+    bottom:200px;
+    background-color: purple;
+    height:0px;
+}
+.box.black{
+    display: block;
+    width: 0;
+    background-color: black;
+    position:absolute;
+    right:260px;
+    bottom: 200px;
+    transition: 1s;
+}
+.box.black.active{
+    position: absolute;
+    bottom:200px;
+    right:260px;
+    width: 100px;
+    background-color: black;
+}
+.box.black.close{
+    position: absolute;
+    bottom:200px;
+    right:260px;
+    width: 0px;
+    background-color: black;
+}
+
+.box.Platinum{
+    display: block;
+    height: 0;
+    background-color: #B6B6B4;
+    position:absolute;
+    right:260px;
+    top: 194px;
+    transition: 1s;
+}
+.box.Platinum.active{
+    position: absolute;
+    top:194px;
+    right:260px;
+    height: 100px;
+    background-color: #B6B6B4;
+}
+.box.Platinum.close{
+    position: absolute;
+    top:194px;
+    right:260px;
+    height: 0px;
+    background-color: #B6B6B4;
+}
+
+
+.font-size{
+    margin: 20px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.font-size > p{
+    margin-top: 20px;
+}
+.bt-size{
+    display: flex;
+    justify-content: center;
+}
+.bt-size li{
+    margin: 10px;
+}
+.bt-size a{
+    display: block;
+    width: 50px;
+    text-decoration:none;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #008B8B;
+}
+.bt-size a:hover{
+    background-color: #008B8B ;
+    color: white;
+}
+.article{
+    font-size: 16px;
+}
+
+
+.fixed{
+    margin: 20px;
+    border-bottom: 2px solid black;
+    
+}
+.fixed>p{
+    line-height: 1.3;
+}
+.ad{
+    position: fixed;
+    top:100px;
+    left: 30px;
+    z-index: 10;
+}
+.ad p{
+    color: white;
+    font-size: 30px;
+    line-height: 300px;
+    text-align: center;
+    background-color: black;
+    width: 500px;
+    height: 300px;
+    
+}
+.ad .ad-close{
+    display: block;
+    text-decoration: none;
+    width: 50px;
+    line-height: 20px;
+    text-align: center;
+    background-color: red;
+    position: absolute;
+    top:0;
+    right:0;
+}
+.ad .ad-close:hover{
+    color: white;
+    background-color: blue;
+}
+
+
+.animate-css{
+    margin: 20px;
+    border-bottom: 2px solid black;
+}
+.animate-css .btn-animate{
+    margin-bottom: 15px;
+}
+.animate-css span{
+    color:red;
+    font-weight: bolder;
+    font-size: 18px;
+}
+.animate-item{
+    display: flex;
+    justify-content:space-evenly;
+    margin-bottom: 20px;
+}
+.hinge{
+    width: 200px;
+    height: 80px;
+    background-color: blue;
+}
+.roll-in-out{
+    width: 200px;
+    height: 80px;
+    background-color:cadetblue;
+}
+.wobble{
+    width: 200px;
+    height: 80px;
+    background-color:crimson;
+}
+.offcanvas {
+    margin-bottom: 100px;
+    width: 800px;
+    margin-left: 100px;
+}
+.off-container{
+    position: relative;
+    overflow: hidden;
+}
+.header{
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+.header p{
+    color: white;
+    margin-bottom: 0;
+
+}
+.header .menu-bt{
+    display: block;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+.menu-bt span{
+    display: block;
+    margin-top: 8px;
+    height:3px;
+    width: 40px;
+    background-color: white;
+}
+.offcanvas .aside{
+    position: absolute;
+    width:200px;
+    height:325px;
+    background-color: gray;
+    transform: translate(-215px,-10px);
+    transition: 0.5s;
+}
+.main.open .aside{
+    transform: translate(-10px,-10px);
+}
+.aside-bt a{
+    display: block;
+    color:white;
+    text-align: center;
+    font-size: 20px;
+    padding: 15px 0px;
+    text-decoration: none;
+    border:1px solid black ;
+}
+.main{
+    background-color: gray;
+    padding: 10px;
+}
+.aside a:hover{
+    background-color: white;
+    color: black;
+}
+.main .off-item{
+    display: flex;
+    justify-content: space-evenly;
+}
+.main .off-item li{
+    text-align: center;
+    width: 220px;
+}
+.main .off-item p{
+    padding: 5px 10px 0px 10px ;
+    font-size: 16px;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
